@@ -1,0 +1,28 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="gs-ml-dry-beans-image-classification-using-eiq" type="general_sw" format="projectfile" name="ML dry beans image classification using eIQ">
+    <display_title>
+        ML Dry Beans Image Classification Using eIQ
+    </display_title>
+    <overview>
+        <![CDATA[Step-by-step guide for deployment of an image classification model on an MCU-based system. A balanced image classification model is developed by using the eIQ portal. <br />]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="imxrt"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+    </nxp_compatible_hw>
+    <nxp_ebh_hw>
+        <ebh id="nxp_rk055hdmipi4ma0"></ebh>
+    </nxp_ebh_hw>
+    <peripherals>
+        <peripheral name="display"></peripheral>
+        <peripheral name="video"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="aiml"></category>
+        <category name="vision"></category>
+    </categories>
+</data:item>
